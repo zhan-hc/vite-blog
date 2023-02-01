@@ -1,0 +1,39 @@
+:root {
+  --nav-height: 72px;
+  --nav-color: rgba(60, 60, 60, 0.12);
+  --bg-color: #fff;
+  --nav-icon-light: #000;
+  --text-light: rgba(60, 60, 60, 0.7);
+  --switch-boder-color: rgba(60, 60, 60, .29);
+  --switch-bg: #f1f1f1;
+  --switch-icon-bg: #fff;
+  --switch-hover-border: #8e8e8e;
+  /* --nav-icon-drak: */
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+
+html.dark {
+  background-color: var(--bg-color);
+  --bg-color: #181818;
+  --text-light: rgba(156, 163, 175, 1);
+  --nav-icon-light: #fff;
+  --nav-color: rgba(84, 84, 84, 0.48);
+  --switch-boder-color: rgba(84, 84, 84, 0.65);
+  --switch-bg: #2f2f2f;
+  --switch-icon-bg: #000;
+}
